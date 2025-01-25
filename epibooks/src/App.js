@@ -2,7 +2,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import MyNav from './MyNav';
+import MyNav from './MyNav'
+import MyFooter from './MyFooter'
+
 
 
 function App() {
@@ -11,7 +13,12 @@ function App() {
       <headre>
         <MyNav/>
       </headre>
+    <div className='App-content'>
 
+    </div>
+      <footer>
+        <MyFooter/>
+      </footer>
     </body>
       
   );

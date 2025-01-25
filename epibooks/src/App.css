@@ -3,3 +3,12 @@
   min-height: 100dvh;
  
 }
+
+.App-content {
+  min-height: 89vh;
+}
+
+.footer {
+  color: whitesmoke;
+  font-size: 16px;
+}
