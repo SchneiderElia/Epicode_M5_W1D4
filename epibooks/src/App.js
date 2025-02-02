@@ -1,20 +1,14 @@
-
-import './App.css';
+import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-
 import MyNav from './MyNav'
 import MyFooter from './MyFooter'
 import Alert from './Alert'
-
-
-
-
-
-
+import CardBooks from './AllTheBooks'
+import AllTheBooks from './AllTheBooks'
 
 function App() {
   return (
-    <div className='App'>
+    <main className='App'>
 
       <MyNav />
 
@@ -23,11 +17,17 @@ function App() {
           <Alert />
         </div>
 
+        <div className='container mt-5 mb-5'>
+          <AllTheBooks/>
+        </div>
+
+
+
       </div>
       <footer>
         <MyFooter />
       </footer>
-    </div>
+    </main>
 
   );
 }
